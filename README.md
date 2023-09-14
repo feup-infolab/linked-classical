@@ -116,4 +116,4 @@ After starting the application, the following services will be available:
 
 ## Demo
 
-![](./docs/demo.mp4)
+https://github.com/feup-infolab/linked-classical/assets/50210213/e541df93-ea21-4e66-a1e3-f1ed4c943847
