@@ -1,6 +1,6 @@
 # Linked Classical
 
-This repository contains the infrastructure developed for a linked data application in the context of classical music, Linked Classical. The application uses [a dataset from DBTune Classical](http://dbtune.org/classical/) as the base knowledge base, and allows for its expansion through SPARQL federation. This work was developed in the context of my master's dissertation, entitled "Federation Solutions for Linked Data Applications", and in the context of the [EPISA project](https://episa.inesctec.pt/). The main goals are the evaluation of federation solutions, interaction with linked data, and the development of a template for linked data applications.
+This repository contains the infrastructure developed for a linked data application in the context of classical music, Linked Classical. The application uses [a dataset from DBTune Classical](http://dbtune.org/classical/) as the base knowledge base, and allows for its expansion through SPARQL federation. This work was developed in the context of Tiago Gomes's [M.EIC](https://sigarra.up.pt/feup/en/cur_geral.cur_view?pv_curso_id=22862) master's dissertation, entitled "Federation Solutions for Linked Data Applications", and in the context of the [EPISA project](https://episa.inesctec.pt/). The main goals are the evaluation of federation solutions, interaction with linked data, and the development of a template for linked data applications.
 
 ## Architecture
 
