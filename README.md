@@ -119,4 +119,4 @@ After starting the application, the following services will be available:
 
 ## Demo
 
-https://github.com/feup-infolab/linked-classical/assets/50210213/e541df93-ea21-4e66-a1e3-f1ed4c943847
+https://github.com/feup-infolab/linked-classical/assets/50210213/83cdf886-cf3f-42ba-9c7f-9757a95368b7
