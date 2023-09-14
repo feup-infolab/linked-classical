@@ -91,6 +91,9 @@ The user chooses the external resource URI and its datasource and the applicatio
 
 ![](./docs/external-entities.png)
 
+## Requirements
+
+To run the application, you need to have [docker](https://www.docker.com/) and [git](https://git-scm.com/) installed on your machine.
 
 ## Setup
 
