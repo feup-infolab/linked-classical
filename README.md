@@ -99,7 +99,7 @@ To run the application, you need to have [docker](https://www.docker.com/) and [
 
 The first step for the setup of the application is to clone this repository:
 
-```git clone https://gitlab.inesctec.pt/episa/ld-app.git```
+```git clone git@github.com:feup-infolab/linked-classical.git```
 
 To run the application, run on the root of the repository:
 
