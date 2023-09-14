@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    container_name: frontend
+    build:
+      context: ./app
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/var/www/app/
+      - /var/www/app/node_modules/
+      - /var/www/app/vendor/
+    networks:
+      - server_default
+networks:
+  server_default:
+    external: true

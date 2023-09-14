@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix LinkedClassical: <https://example.com/linked_classical/> .
+@prefix DBpedia: <https://www.dbpedia.org/> .
+@prefix Wikidata: <https://www.wikidata.org/> .
+
+## --- our dataset ---
+
+LinkedClassical:  rdf:type void:Dataset ;
+        dcterms:title "Linked Classical" ;
+        void:sparqlEndpoint <https://example.com/linked_classical/sparql> ;
+        void:exampleResource <https://example.com/linked_classical/composer/97e88489-3475-4e60-b823-1f81fb3132a4> .
+
+## --- datasets to link to ---
+
+# interlinking to DBpedia:
+DBpedia:    rdf:type void:Dataset ;
+            foaf:homepage <https://www.dbpedia.org/> ;
+            dcterms:title "DBPedia" ;
+            void:exampleResource <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+            void:sparqlEndpoint <https://dbpedia.org/sparql/> .
+
+LinkedClassical:linked_classical-dbpedia-sameAs  rdf:type void:Linkset ;
+                            void:linkPredicate owl:sameAs ;
+                            void:target LinkedClassical: ;
+                            void:target DBpedia: .
+
+# interlinking to Wikidata:
+Wikidata:   rdf:type void:Dataset ;
+            foaf:homepage <https://www.wikidata.org/> ;
+            dcterms:title "Wikidata" ;
+            void:exampleResource <https://www.wikidata.org/entity/Q12368917> ;
+            void:sparqlEndpoint <https://query.wikidata.org/sparql> .
+
+LinkedClassical:linked_classical-sameAs rdf:type void:Linkset ;
+                            void:linkPredicate owl:sameAs ;
+                            void:target LinkedClassical: ;
+                            void:target Wikidata: .
