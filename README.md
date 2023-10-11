@@ -12,7 +12,7 @@ The application is composed by three main components: an [Apache Jena Fuseki](ht
 
 ![](./docs/class-diagram.png)
 
-## Physical Model Diagram
+## Logical Model Diagram
 
 ![](./docs/physical-model.png)
 
